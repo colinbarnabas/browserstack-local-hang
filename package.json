@@ -1,0 +1,16 @@
+{
+  "name": "browserstack-local-hang",
+  "version": "1.0.0",
+  "description": "Demonstrates an issue with browserstack-local in Docker",
+  "main": "index.js",
+  "scripts": {
+    "start": "docker-compose up --build",
+    "stop": "docker-compose down",
+    "test": "./test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserstack-local": "1.2.0"
+  }
+}

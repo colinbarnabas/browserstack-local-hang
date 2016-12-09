@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+    app:
+        build: .
+        environment:
+            - BROWSERSTACK_ACCESS_KEY
